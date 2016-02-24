@@ -472,10 +472,6 @@ on property:init.svc.macloader=stopped
 # end of wifi
 
 
-service slog /system/bin/slog
-    class main
-    user system
-    group system shell radio log
 
 # Create symlink
 service pty_symlink /system/bin/ext_symlink.sh -p
