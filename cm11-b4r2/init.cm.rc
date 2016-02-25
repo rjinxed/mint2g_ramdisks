@@ -124,3 +124,6 @@ service sysinit /system/bin/sysinit
     user root
     oneshot
     disabled
+
+# zram
+import init.zram.rc
