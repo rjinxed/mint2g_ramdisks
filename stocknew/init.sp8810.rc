@@ -36,6 +36,7 @@ on post-fs
     insmod /system/lib/modules/ump.ko
     insmod /system/lib/modules/mali.ko
 
+    insmod /system/lib/modules/cpufreq-sc8810.ko
 
 
     chown radio system /efs
